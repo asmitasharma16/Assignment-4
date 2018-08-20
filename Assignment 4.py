@@ -20,7 +20,7 @@ for char in string:
 print(ustring)
 
 #Q.3- Split the user input on comma's and store the values in a list as integers.
-num=input('input ').split(' ')
+num=input('input ').split(',')
 print('number in string form ',num)
 newnum=[ ]
 for i in num:
